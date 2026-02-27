@@ -128,11 +128,13 @@ body {
     font-weight: 400;
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 8px;
+    margin-bottom: 14px;
 }
 
 .percentage-bar-container {
     margin-top: 24px;
+    width: 608px;
+    height: 62px;
 }
 
 
