@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.progress-card {
+    background-color: #5d5fef;
+    width: 672px;
+    height: 328px;
+    border-radius: 11px;
+    border: #3437f1 solid 2px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 250px;
+    justify-content: center;
+    padding: 32px 32px 32px 32px;
+}
+
+body {
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    width: 608px;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+}
+
+.top h1 {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 160%;
+    width: 415px;
+    height: 38px;
+}
+
+.top button {
+    background-color: #e8e8ff;
+    width: 186px;
+    height: 54px;
+    border-radius: 6px;
+    color: #5d5fef;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 400;
+    border: none;
+}
+
+.avatars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.img1 {
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+}
+
+.img2 {
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+    position: relative;
+    right: 20px;
+}
+
+.img3 {
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+    position: relative;
+    right: 40px;
+}
+
+.img4 {
+    width: 100px;
+    height: 100px;
+    z-index: 4;
+    position: relative;
+    right: 60px;
+}
+
+.avatars button {
+    background-color: #ffffff;
+    width: 130px;
+    height: 38px;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 100px;
+    border: #e0e6ed solid 2px;
+    color: #5d5fef;
+    z-index: 5;
+    position: relative;
+    right: 80px;
+}
+
+.whiteprogress {
+    background-color: #ffffff;
+    width: 60%;
+    height: 10px;
+    border-radius: 14px;
+}
+
+.darkprogress {
+    width: 608px;
+    height: 10px;
+    background-color: #7879f1;
+    border-radius: 14px;
+}
+
+.percentage span {
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+}
+
+.percentage-bar-container {
+    margin-top: 24px;
+}
+
+
